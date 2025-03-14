@@ -26,9 +26,11 @@ url: "http://littlebigpatcherteam.github.io" # the base hostname & protocol for 
 github_username:  LittleBigPatcherTeam
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+minima:
+  skin: dark # or auto if you want it to switch with your system settings.
 
 # Exclude from processing.
 # The following items will not be processed, by default.
