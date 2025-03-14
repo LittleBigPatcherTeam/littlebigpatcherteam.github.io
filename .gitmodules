@@ -1,0 +1,3 @@
+[submodule "LittleBigPatcher-for-Custom-Servers-PS3-Homebrew"]
+	path = LittleBigPatcher-for-Custom-Servers-PS3-Homebrew
+	url = git@github.com:LittleBigPatcherTeam/LittleBigPatcher-for-Custom-Servers-PS3-Homebrew.git
