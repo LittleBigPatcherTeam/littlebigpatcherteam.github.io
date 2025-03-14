@@ -3,6 +3,10 @@ title: How to install and "[START]START DECRYPT(SELF)" using FAGDec (French Amer
 ---
 # How to install and "[START]START DECRYPT(SELF)" using FAGDec
 
+# Only need to do this once
+If you use LittleBigPatcher, you only need to do this once per game, so you can revert patches and switch urls with LittleBigPatcher as much as you like after doing this
+
+
 ## Installing
 It is just like any other .vpk application, although on the homescreen, it will be a white bubble and be called `French Amercian Games Decrypter`
 heres a direct download link [https://github.com/TeamFAPS/PSVita-RE-tools/raw/refs/heads/master/FAGDec/build/FAGDec.vpk](https://github.com/TeamFAPS/PSVita-RE-tools/raw/refs/heads/master/FAGDec/build/FAGDec.vpk)<br>
