@@ -18,7 +18,7 @@ It means you need to align the camera better, perhaps clean the rear camera, mak
 Now you should see the bubble, Enter it<br>
 ![FAGDec now installed](https://github.com/LittleBigPatcherTeam/littlebigpatcherteam.github.io/blob/main/assets/images/fagdec_guide_images/fagdec_installed.png?raw=true)
 
-## Using ([START]START DECRYPT(SELF))
+## Using FAGDec for DECRYPT(SELF)
 Now that its installed, start the app, and you should be greeted to something similar to this<br>
 ![FAGDec main menu](https://github.com/LittleBigPatcherTeam/littlebigpatcherteam.github.io/blob/main/assets/images/fagdec_guide_images/fagdec_main_menu.png?raw=true)<br>
 Now, use the DPAD to navigate, and go down to the game you want under `PFS TITLES FOUND:` (if you have alot of games, keep pressing down to scroll for more games)<br>
