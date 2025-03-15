@@ -8,6 +8,11 @@ If you use LittleBigPatcher, you only need to do this once per game, so you can 
 
 
 ## Installing
+If you have LittleBigPatcher installed, you can press this button on the livearea sticker (work is being done to make it stand out more)<br>
+![Press the install FAGDec.vpk btn](https://github.com/LittleBigPatcherTeam/littlebigpatcherteam.github.io/blob/main/assets/images/fagdec_guide_images/install_fagdec_via_patcher.png?raw=true)<br>
+It will then open vitashell and just install the vpk that's there like any other vpk file<br>
+![Just install the vpk with VitaShell](https://github.com/LittleBigPatcherTeam/littlebigpatcherteam.github.io/blob/main/assets/images/fagdec_guide_images/vitashell_install_da_vpk.png?raw=true)<br>
+## without LittleBigPatcher to install FAGDec.vpk
 It is just like any other .vpk application, although on the homescreen, it will be a white bubble and be called `French Amercian Games Decrypter`
 heres a direct download link [https://github.com/TeamFAPS/PSVita-RE-tools/raw/refs/heads/master/FAGDec/build/FAGDec.vpk](https://github.com/TeamFAPS/PSVita-RE-tools/raw/refs/heads/master/FAGDec/build/FAGDec.vpk)<br>
 or if you wanna be fancy, go to VitaShell, and in there, press DPAD Left and CIRCLE at the sametime to bring up a qr code scanner, point the camera at this qr code<br>
