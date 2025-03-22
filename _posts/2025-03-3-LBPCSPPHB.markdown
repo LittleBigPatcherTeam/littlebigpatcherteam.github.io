@@ -255,7 +255,7 @@ Here's an example patch method entry in `patch.lua` that just does nothing (the 
 ```lua
 patch_method_vita_tearaway = "Tearaway vita"
 ---@param eboot_elf_path string The path to the eboot.elf file which is ready to be patched
----@param url string The user entered url, it wont have a trailing null character, you should patch to this
+---@param url string The user entered url, it wont have a trailing null character, you should patch to this. if you need you can do stuff like just get the domain and port from a url
 ---@param digest string Same as url but for digest, most games you can ignore this, or maybe use it as something else, eg perhaps custom warning text? will be empty string if not provided
 ---@param normalise_digest boolean This you can most certainly ingnore, but you can always utlise it for something else, as an optinal boolean, false if uchecked, true if checked
 ---@param working_dir string Place to put files if you need to, but you likely wont
@@ -279,7 +279,7 @@ If you're using HxD, look near the bottom of the HxD window, for `Length(h): ` a
 here, we can see its `Length(h): 14`, so our number will be `0x14` (if it says `Length(d): 20` then the number will be `20` instead)
 
 ## Adding in the patch
-Open up patch.lua in an editor and go to the bottom to add in your number, like so (give a descriptive name)
+Open up patch.lua in an editor and go to the bottom to add in your number, like so (give a descriptive name) (there is no harm in having a bigger number, but do not make it smaller than any of the urls with the null bytes in the eboot, make it bigger to be safe)
 ```lua
 BIGGEST_POSSIBLE_URL_IN_TEARAWAY_VITA_EBOOT_INCL_NULL = 0x14
 ```
@@ -298,7 +298,7 @@ end
 
 patch_method_vita_tearaway = "Tearaway vita"
 ---@param eboot_elf_path string The path to the eboot.elf file which is ready to be patched
----@param url string The user entered url, it wont have a trailing null character, you should patch to this
+---@param url string The user entered url, it wont have a trailing null character, you should patch to this. if you need you can do stuff like just get the domain and port from a url
 ---@param digest string Same as url but for digest, most games you can ignore this, or maybe use it as something else, eg perhaps custom warning text? will be empty string if not provided
 ---@param normalise_digest boolean This you can most certainly ingnore, but you can always utlise it for something else, as an optinal boolean, false if uchecked, true if checked
 ---@param working_dir string Place to put files if you need to, but you likely wont
